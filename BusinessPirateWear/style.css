@@ -1,0 +1,70 @@
+
+.topnav {
+    background-color: rgb(51,51,51);
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a#userinfo {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a#userinfo:hover {
+    background-color: #24ded8;
+    color: rgb(0, 0, 0);
+}
+.topnav a:hover {
+    background-color: #24ded8;
+    color: rgb(0, 0, 0);
+}
+.topnav a.active {
+    background-color: #2004aa;
+    color: white;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    background-color: #96a7a6;
+    padding: 16px;
+    position: static;
+    margin-left: 30%;
+    margin-top: 20%;
+    margin-right: 30%;
+}
+section > form {
+    border: 3px solid #f1f1f1;
+  }
+
+input[type=text], input[type=password], input[type=tel], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+body > form {
+    border: 5px solid #f1f1f1;
+    margin: 5%;
+  }
+
+select {
+    font-size: medium;
+    width: 200px;
+}
+
+section {
+    flex: auto;
+}
